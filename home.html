@@ -1,16 +1,175 @@
 <html>
-	<head>
-		<title>Paul && Albee's Wedding</title>
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	</head>
+<head>
+	<title>Paul && Albee's Wedding</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-	<script type="text/javascript">
-		d
-	</script>
+	<style type="text/css">
+		.slider_container {
+   			margin: 30px auto;
+   			width: 769px;
+  	 		height: 1024px;
+  	 		position: relative;
+   			border: 20px solid;
+   			border-color: #fff;
+   			background-color: #f5f5f5;
+   			box-shadow: #666 0 0 5px;
+		}
 
-	<body>
+		.slider_container div {
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		opacity: 0;
+    		filter: alpha(opacity=0);
+		}
+
+		.slider_container div {
+    		-webkit-animation: round 26s linear infinite;
+            animation: round 26s linear infinite;
+		}
+
+		@-webkit-keyframes round {
+    		4% {
+        		opacity: 1;
+        		filter: alpha(opacity=100);
+        		/* 0 - 1秒 淡入*/
+    		}
+    		20% {
+        		opacity: 1;
+        		filter: alpha(opacity=100);
+        		/* 1- 5秒靜止*/
+    		}
+    		24% {
+        		opacity: 0;
+        		filter: alpha(opacity=0);
+        		/* 5-6秒淡出*/
+    		}
+		}
+
+		@keyframes round {
+    		4% {
+        		opacity: 1;
+        		filter: alpha(opacity=100);
+        		/* 0 - 1秒 淡入*/
+    		}
+    		20% {
+        		opacity: 1;
+        		filter: alpha(opacity=100);
+        		/* 1- 5秒靜止*/
+    		}
+    		24% {
+        		opacity: 0;
+        		filter: alpha(opacity=0);
+        		/* 5-6秒淡出*/
+    		}
+		}
+
+		.slider_container div:nth-child(1) {
+    		-webkit-animation-delay: 0s;
+            		animation-delay: 0s;
+		}
+
+		.slider_container div:nth-child(2) {
+    		-webkit-animation-delay: 2s;
+            		animation-delay: 2s;
+		}
+		.slider_container div:nth-child(3) {
+    		-webkit-animation-delay: 4s;
+            		animation-delay: 4s;
+		}
+
+		.slider_container div:nth-child(4) {
+    		-webkit-animation-delay: 6s;
+            		animation-delay: 6s;
+		}
+		.slider_container div:nth-child(5) {
+    		-webkit-animation-delay: 8s;
+            		animation-delay: 8s;
+		}
+
+		.slider_container div:nth-child(6) {
+    		-webkit-animation-delay: 10s;
+            		animation-delay: 10s;
+		}
+		.slider_container div:nth-child(7) {
+    		-webkit-animation-delay: 12s;
+            		animation-delay: 12s;
+		}
+
+		.slider_container div:nth-child(8) {
+    		-webkit-animation-delay: 14s;
+            		animation-delay: 14s;
+		}
+		.slider_container div:nth-child(9) {
+    		-webkit-animation-delay: 16s;
+            		animation-delay: 16s;
+		}
+
+		.slider_container div:nth-child(10) {
+    		-webkit-animation-delay: 18s;
+            		animation-delay: 18s;
+		}
+		.slider_container div:nth-child(11) {
+    		-webkit-animation-delay: 20s;
+            		animation-delay: 20s;
+		}
+
+		.slider_container div:nth-child(12) {
+    		-webkit-animation-delay: 22s;
+            		animation-delay: 22s;
+		}
+
+		.slider_container div:nth-child(13) {
+    		-webkit-animation-delay: 24s;
+            		animation-delay: 24s;
+		}
+	</style>
+
+
+
+</head>
+
+<body>
+	<div class="slider_container">
 		<div>
-			d
+			<img src="images/ilan_1.jpg" alt="pure css3 slider" />
 		</div>
-	</body>
+		<div>
+			<img src="images/ilan_2.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_3.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_4.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_5.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_6.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_7.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_8.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_9.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_10.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_11.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_12.jpg" alt="pure css3 slider" />
+		</div>
+		<div>
+			<img src="images/ilan_13.jpg" alt="pure css3 slider" />
+		</div>
+	</div>
+</body>
 </html>
